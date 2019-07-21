@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C218BD0536B66A21097621 /* Pods_Virob_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D95CA975BB92492F311D14 /* Pods_Virob_Assessment.framework */; };
+		CCF1864C22E340F900C62E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1864B22E340F900C62E68 /* AppDelegate.swift */; };
+		CCF1864E22E340F900C62E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1864D22E340F900C62E68 /* ViewController.swift */; };
+		CCF1865122E340F900C62E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF1864F22E340F900C62E68 /* Main.storyboard */; };
+		CCF1865422E340F900C62E68 /* Virob_Assessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCF1865222E340F900C62E68 /* Virob_Assessment.xcdatamodeld */; };
+		CCF1865622E340FA00C62E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF1865522E340FA00C62E68 /* Assets.xcassets */; };
+		CCF1865922E340FA00C62E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF1865722E340FA00C62E68 /* LaunchScreen.storyboard */; };
+		CCF1866522E3434800C62E68 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1866422E3434800C62E68 /* Constant.swift */; };
+		CCF1866822E3442700C62E68 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1866722E3442700C62E68 /* WebService.swift */; };
+		CCF1866B22E34D7000C62E68 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1866A22E34D7000C62E68 /* Category.swift */; };
+		CCF1866E22E370DB00C62E68 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1866D22E370DB00C62E68 /* ViewModel.swift */; };
+		CCF1867222E3788A00C62E68 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1867022E3788A00C62E68 /* CategoryCollectionViewCell.swift */; };
+		CCF1867322E3788A00C62E68 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF1867122E3788A00C62E68 /* CategoryCollectionViewCell.xib */; };
+		CCF1867622E382B200C62E68 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1867522E382B200C62E68 /* Utilities.swift */; };
+		CCF1867B22E3971D00C62E68 /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1867922E3971D00C62E68 /* ShopCollectionViewCell.swift */; };
+		CCF1867C22E3971D00C62E68 /* ShopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF1867A22E3971D00C62E68 /* ShopCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44A01D569CCDF3F2C7F35BAB /* Pods-Virob Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virob Assessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Virob Assessment/Pods-Virob Assessment.debug.xcconfig"; sourceTree = "<group>"; };
+		50D95CA975BB92492F311D14 /* Pods_Virob_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Virob_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF1864822E340F900C62E68 /* Virob Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virob Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF1864B22E340F900C62E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF1864D22E340F900C62E68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF1865022E340F900C62E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF1865322E340F900C62E68 /* Virob_Assessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Virob_Assessment.xcdatamodel; sourceTree = "<group>"; };
+		CCF1865522E340FA00C62E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF1865822E340FA00C62E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF1865A22E340FA00C62E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF1866422E3434800C62E68 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CCF1866722E3442700C62E68 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		CCF1866A22E34D7000C62E68 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CCF1866D22E370DB00C62E68 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CCF1867022E3788A00C62E68 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCF1867122E3788A00C62E68 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		CCF1867522E382B200C62E68 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CCF1867922E3971D00C62E68 /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCF1867A22E3971D00C62E68 /* ShopCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopCollectionViewCell.xib; sourceTree = "<group>"; };
+		F1615DE9A23BC95E8681BA03 /* Pods-Virob Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virob Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Virob Assessment/Pods-Virob Assessment.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF1864522E340F900C62E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C218BD0536B66A21097621 /* Pods_Virob_Assessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89807F5A82FCB3C6DA109236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50D95CA975BB92492F311D14 /* Pods_Virob_Assessment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEDC40DDA7F30660E2FA2D78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44A01D569CCDF3F2C7F35BAB /* Pods-Virob Assessment.debug.xcconfig */,
+				F1615DE9A23BC95E8681BA03 /* Pods-Virob Assessment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCF1863F22E340F800C62E68 = {
+			isa = PBXGroup;
+			children = (
+				CCF1864A22E340F900C62E68 /* Virob Assessment */,
+				CCF1864922E340F900C62E68 /* Products */,
+				AEDC40DDA7F30660E2FA2D78 /* Pods */,
+				89807F5A82FCB3C6DA109236 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF1864922E340F900C62E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1864822E340F900C62E68 /* Virob Assessment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF1864A22E340F900C62E68 /* Virob Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1867422E3829E00C62E68 /* Utils */,
+				CCF1866F22E3782000C62E68 /* Custom Cells */,
+				CCF1866C22E3691100C62E68 /* View Model */,
+				CCF1866922E34D5E00C62E68 /* Model */,
+				CCF1866122E342D400C62E68 /* App Delegate */,
+				CCF1866022E342C000C62E68 /* Storyboards */,
+				CCF1866222E342E100C62E68 /* Controllers */,
+				CCF1866622E3440200C62E68 /* Web Services */,
+				CCF1866322E3433000C62E68 /* Constant */,
+				CCF1865522E340FA00C62E68 /* Assets.xcassets */,
+				CCF1865A22E340FA00C62E68 /* Info.plist */,
+				CCF1865222E340F900C62E68 /* Virob_Assessment.xcdatamodeld */,
+			);
+			path = "Virob Assessment";
+			sourceTree = "<group>";
+		};
+		CCF1866022E342C000C62E68 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1865722E340FA00C62E68 /* LaunchScreen.storyboard */,
+				CCF1864F22E340F900C62E68 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CCF1866122E342D400C62E68 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1864B22E340F900C62E68 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		CCF1866222E342E100C62E68 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1864D22E340F900C62E68 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CCF1866322E3433000C62E68 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1866422E3434800C62E68 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		CCF1866622E3440200C62E68 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1866722E3442700C62E68 /* WebService.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		CCF1866922E34D5E00C62E68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1866A22E34D7000C62E68 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCF1866C22E3691100C62E68 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1866D22E370DB00C62E68 /* ViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CCF1866F22E3782000C62E68 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1867822E3970400C62E68 /* Shop */,
+				CCF1867722E396F400C62E68 /* Category */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		CCF1867422E3829E00C62E68 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1867522E382B200C62E68 /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CCF1867722E396F400C62E68 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1867122E3788A00C62E68 /* CategoryCollectionViewCell.xib */,
+				CCF1867022E3788A00C62E68 /* CategoryCollectionViewCell.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CCF1867822E3970400C62E68 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1867922E3971D00C62E68 /* ShopCollectionViewCell.swift */,
+				CCF1867A22E3971D00C62E68 /* ShopCollectionViewCell.xib */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF1864722E340F900C62E68 /* Virob Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF1865D22E340FA00C62E68 /* Build configuration list for PBXNativeTarget "Virob Assessment" */;
+			buildPhases = (
+				6A855234B6B5B70A06029656 /* [CP] Check Pods Manifest.lock */,
+				CCF1864422E340F900C62E68 /* Sources */,
+				CCF1864522E340F900C62E68 /* Frameworks */,
+				CCF1864622E340F900C62E68 /* Resources */,
+				1C7290DD353CA5FF00530EF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Virob Assessment";
+			productName = "Virob Assessment";
+			productReference = CCF1864822E340F900C62E68 /* Virob Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF1864022E340F800C62E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = vaaranam;
+				TargetAttributes = {
+					CCF1864722E340F900C62E68 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = CCF1864322E340F800C62E68 /* Build configuration list for PBXProject "Virob Assessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF1863F22E340F800C62E68;
+			productRefGroup = CCF1864922E340F900C62E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF1864722E340F900C62E68 /* Virob Assessment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF1864622E340F900C62E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF1867C22E3971D00C62E68 /* ShopCollectionViewCell.xib in Resources */,
+				CCF1867322E3788A00C62E68 /* CategoryCollectionViewCell.xib in Resources */,
+				CCF1865922E340FA00C62E68 /* LaunchScreen.storyboard in Resources */,
+				CCF1865622E340FA00C62E68 /* Assets.xcassets in Resources */,
+				CCF1865122E340F900C62E68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C7290DD353CA5FF00530EF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Virob Assessment/Pods-Virob Assessment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Virob Assessment/Pods-Virob Assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A855234B6B5B70A06029656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Virob Assessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF1864422E340F900C62E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF1867222E3788A00C62E68 /* CategoryCollectionViewCell.swift in Sources */,
+				CCF1864E22E340F900C62E68 /* ViewController.swift in Sources */,
+				CCF1867B22E3971D00C62E68 /* ShopCollectionViewCell.swift in Sources */,
+				CCF1865422E340F900C62E68 /* Virob_Assessment.xcdatamodeld in Sources */,
+				CCF1864C22E340F900C62E68 /* AppDelegate.swift in Sources */,
+				CCF1866822E3442700C62E68 /* WebService.swift in Sources */,
+				CCF1866522E3434800C62E68 /* Constant.swift in Sources */,
+				CCF1867622E382B200C62E68 /* Utilities.swift in Sources */,
+				CCF1866B22E34D7000C62E68 /* Category.swift in Sources */,
+				CCF1866E22E370DB00C62E68 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCF1864F22E340F900C62E68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF1865022E340F900C62E68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF1865722E340FA00C62E68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF1865822E340FA00C62E68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF1865B22E340FA00C62E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF1865C22E340FA00C62E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF1865E22E340FA00C62E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A01D569CCDF3F2C7F35BAB /* Pods-Virob Assessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QCQLAGU8T;
+				INFOPLIST_FILE = "Virob Assessment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaaranam.Virob-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF1865F22E340FA00C62E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1615DE9A23BC95E8681BA03 /* Pods-Virob Assessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QCQLAGU8T;
+				INFOPLIST_FILE = "Virob Assessment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaaranam.Virob-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF1864322E340F800C62E68 /* Build configuration list for PBXProject "Virob Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF1865B22E340FA00C62E68 /* Debug */,
+				CCF1865C22E340FA00C62E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF1865D22E340FA00C62E68 /* Build configuration list for PBXNativeTarget "Virob Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF1865E22E340FA00C62E68 /* Debug */,
+				CCF1865F22E340FA00C62E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCF1865222E340F900C62E68 /* Virob_Assessment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCF1865322E340F900C62E68 /* Virob_Assessment.xcdatamodel */,
+			);
+			currentVersion = CCF1865322E340F900C62E68 /* Virob_Assessment.xcdatamodel */;
+			path = Virob_Assessment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCF1864022E340F800C62E68 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Virob_Assessment {
+  umbrella header "Pods-Virob Assessment-umbrella.h"
+
+  export *
+  module * { export * }
+}
